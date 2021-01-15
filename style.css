@@ -1,0 +1,574 @@
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;	
+    font-family: 'Rubik', sans-serif;
+    color: #3C3C3C;
+}
+
+/* ======================Header=============== */
+
+.header-wave {
+    background-image: url(img/wave.png);
+    height: 100%;
+}
+
+.container-bg {
+    margin: auto;
+    width: 1920px;
+}
+
+.header-bg {
+    background-image: url(img/boy.png);
+    background-position: right;
+    height: 729px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container1300 {
+    margin: auto;
+    width: 1300px;
+}
+
+.header-top {
+    display: flex;
+}
+
+.header-logo {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.header-bar {
+    display: flex;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.header-bar-item {
+    margin-right: 100px;
+    height: 20px;
+    
+}
+
+.header-bar-item:first-child {
+    margin-left: 150px;
+}
+
+.header-bar-item a {
+    transition: color .2s linear;
+}
+
+.header-bar-item a:hover {
+    color: red;
+}
+
+.header-main {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 60px;
+    color: #3C3C3C;
+    margin-top: 30px;
+}
+
+.header-subtitle {
+    display: flex;
+    margin-top: 40px;
+    width: 1050px;
+    justify-content: space-between;
+}
+
+.header-subtitle-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    color: #464646;
+    width: 356px;
+}
+
+.header-subtitle-order {
+    display: flex;
+    z-index: 0;
+    height: 50px;
+}
+
+.header-subtitle-order-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #505050;
+    width: 220px;
+    text-align: right;
+    position: relative;
+    z-index: 0;
+    margin-right: 20px;
+}
+
+.header-subtitle-order-text:after {
+    content: '';
+    position: absolute;
+    background-color: #FBFF26;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    z-index: 1;
+    top: -15px;
+    right: -80px;
+}
+
+.header-btn {
+    margin-top: 40px;
+}
+
+button.btn {
+    background-color: #ED2E2E;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding: 13px 25px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 3px 0px #CF1010;
+    transition: box-shadow .2s linear;
+}
+
+button.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #CF1010;
+}
+
+/* ======================/Header=============== */
+
+/* ======================Count=============== */
+
+.count-block {
+    margin: auto;
+    padding: 55px 130px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 16px 48px rgba(32, 58, 105, 0.1);
+    margin-top: -50px;
+}
+
+.block-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-content-item {
+    width: 135px;
+    height: 135px;
+    text-align: center;
+}
+
+.block-content-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ED2E2E;
+}
+
+.content-title-text {
+    font-size: 50px;
+}
+
+.content-title-subtext {
+    font-size: 16px;
+}
+
+.block-content-description {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #3C3C3C;
+    margin-top: 15px;
+}
+
+/* ======================/Count=============== */
+
+
+
+/* ======================Supermarket=============== */
+
+.supermarket {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.supermarket-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.supermarket-content-item {
+    width: 23%;
+    margin-bottom: 50px;
+}
+
+.supermarket-img  {
+    width: 25%;
+}
+
+.supermarket-img img {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: box-shadow .2s linear;
+}
+
+.supermarket-img img:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.supermarket-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 36px;
+    margin-bottom: 80px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.supermarket-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.supermarket-description-left {
+    text-align-last: left;
+}
+
+.description-left-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 0px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description-left-subtitle {
+    font-size: 15px;
+    margin-top: 8px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.supermarket-description-right {
+    position: relative;
+}
+
+.description-right-rate {
+    font-weight: 500;
+    background-color: #ED2E2E;
+    color: #fff;
+    width: 38px;
+    font-size: 15px;
+    padding: 2px 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 0;
+}
+
+
+.description-right-review {
+    color: #3C3C3C;
+    font-size: 15px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    right: 0;
+    text-align: right;
+}
+
+.supermarket-more {
+    position: relative;
+}
+
+.supermarket-more a:first-child {
+    color: #ED2E2E;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.supermarket-more a:last-child {
+    position: absolute;
+    top: 2px;
+    left: 55.5%;
+}
+
+.supermarket-more a:hover {
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: text-shadow .2s linear;
+}
+
+
+/* ======================/Supermarket=============== */
+
+/* ======================MobileApp=============== */
+
+.mobile-bg {
+    background-color: #F0FAFA;
+    width: 100%;
+    height: 428px;
+    margin-top: 220px;
+    position: relative;
+}
+
+.mobile-content {
+    display: flex;
+}
+
+.mobile-content-left {
+    width: 50%;
+    text-align: right;
+    margin-top: -100px;
+}
+
+.mobile-content-left img {
+    height: 677px;
+}
+
+.mobile-content-right {
+    margin-top: 70px;   
+}
+
+.content-right-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 36px;
+    width: 500px;
+}
+
+.content-right-descriprion {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 480px;
+    line-height: 34px;
+}
+
+.content-right-form {
+    margin-top: 40px;
+}
+
+.content-right-form input {
+    outline: none;
+    border: 1px solid #D3D3D3;
+    padding: 15px;
+    border-radius: 38px;
+    background-color: transparent;
+    color: #D3D3D3;
+    font-size: 16px;
+    margin-right: 110px;
+    outline-offset: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content-right-form input::placeholder {
+    color: #D3D3D3;
+}
+
+
+/* ======================/MobileApp=============== */
+
+
+/* ======================Reviews=============== */
+
+.container1100 {
+    margin: 0 auto;
+}
+
+.reviews {
+    width: 1100px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.reviews-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-btn {
+    position: relative;
+    margin-top: 170px;
+    background-color: #F0FAFA;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    transition: box-shadow .2s linear;
+}
+
+.slider-btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.slider-btn img {
+    position: absolute;
+    top: 16px;
+    left: 18px;
+}
+
+.reviews-slider-main {
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    text-align: left;
+    width: 640px;
+    padding: 200px 90px;
+}
+
+.slide {
+    position: absolute;
+    left: 90px;
+    top: 62px;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.reviews-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.content-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.content-text {
+    width: 660px;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.content-author {
+    display: flex;
+}
+
+.author-ico img {
+    transition: box-shadow .2s linear;
+    border-radius: 50%;
+}
+
+.author-ico img:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.45); 
+}
+
+.author-name {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.author-network {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #3C3C3C;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* ======================/Reviews=============== */
+
+
+/* ======================Footer=============== */
+
+.footer-line {
+    margin-top: 150px;
+    width: 100%;
+    height: 1px;
+    background-color: hsla(180, 2%, 60%, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footer-content-logo {
+    margin-top: 10px;
+}
+
+.content-left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-item  {
+    width: 20%;
+}
+
+.content-item a {
+    color: #979b9b;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: text-shadow .2s linear;
+}
+
+.content-item a:hover {
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: #ED2E2E;
+}
+
+.content-item p {
+    margin-bottom: 40px;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+}
+
+.content-right .content-item {
+    width: 60%;
+    margin-left: 60px;
+}
+
+.content-right img {
+    margin-top: -20px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ======================/Footer=============== */
